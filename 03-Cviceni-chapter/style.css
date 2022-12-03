@@ -4,7 +4,42 @@ html { box-sizing: border-box; }
 
 body {
 	font: 16px/1.5 sans-serif;
+	margin: 0 auto;
+	width: 1100px;
 }
 
 /* ------------------------------------------------ */
 
+.chapter__container {
+	display: flex;
+	color: magenta;
+}
+
+.chapter__column {
+	width: 50%;
+	text-align: center;
+}
+.chapter__image {
+	display: block;
+}
+
+.chapter__number {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.chapter__title {
+	font-size: 40px;
+	font-family: serif;
+	margin: 40px 0;
+}
+
+.chapter__perex {
+	font-size: 25px;
+	margin:40px 0;
+}
+
+.chapter__text {
+	text-align: justify;
+}
