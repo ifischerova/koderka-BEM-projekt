@@ -4,7 +4,48 @@ html { box-sizing: border-box; }
 
 body {
 	font: 16px/1.5 sans-serif;
+	background-color: #dee2ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 500px;
+	height: 100vh;
+	margin:0 auto;
 }
 
 /* ------------------------------------------------ */
+
+.card {
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	max-height: 600px;
+}
+
+.card__image {
+	display: block;
+	width: 100%;
+	height: 50%;
+}
+
+.card__description {
+	padding: 40px;
+	text-align: left;
+	height: 50%;
+}
+
+.card__description__icons {
+	display: inline-block;	
+	margin-top: 30px;
+}
+
+.card__description__icons__value {
+	margin: 0 15px;
+}
+
+.fa-comments {
+	margin-left: 30px;
+}
 
